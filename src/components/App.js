@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
+import ProjectsList from './ProjectsList';
 
 class App extends Component {
   render() {
     return (
       <Provider {...this.props}>
-        <h1>TADAAA!!!</h1>
+        <ProjectsList/>
       </Provider>
 
     );
