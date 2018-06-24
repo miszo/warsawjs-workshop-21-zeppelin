@@ -19,7 +19,8 @@ const ProjectsList = ({ projects }) => (
 );
 
 ProjectsList.defaultProps = {
-  projects: []
+  projects: [],
+  tags: []
 };
 
 const mapStateToProps = (state, ownProps) => ({
